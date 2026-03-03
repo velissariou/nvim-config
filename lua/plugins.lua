@@ -11,12 +11,6 @@ return {
     end,
   },
 
-  {
-	  "nvim-treesitter/nvim-treesitter",
-	  lazy = false,
-	  branch = 'master',
-	  build = ":TSUpdate"
-  },
 
   {
     "nvim-neorg/neorg",
@@ -123,13 +117,5 @@ return {
       }
       return conf
     end
-  },
-  { 
-    "lewis6991/gitsigns.nvim",
-    dependencies = { "nvim-lua/plenary.nvim" },
-  },
-  {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'nvim-tree/nvim-web-devicons' },
   },
 }
