@@ -35,5 +35,6 @@ vim.opt.tabstop = 2 -- Set tab character to 2 spaces
 vim.opt.smartindent = true -- Enable smart auto-indenting
 vim.opt.scrolloff = 8 -- Keep 8 lines above/below cursor when scrolling
 vim.opt.hlsearch = true -- Highlight all search matches
+vim.opt.number = true
 
 vim.opt.clipboard = "unnamedplus"
