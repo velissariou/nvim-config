@@ -1,13 +1,13 @@
 -- ===========================================================================
 -- General Neovim Options
 -- ===========================================================================
-vim.opt.number = true          -- Show line number
-vim.opt.relativenumber = true  -- Show relative line numbers for navigation
+vim.opt.number = true -- Show line number
+vim.opt.relativenumber = true -- Show relative line numbers for navigation
 
 -- ===========================================================================
 -- Visuals and Appearance
 -- ===========================================================================
-vim.opt.colorcolumn = "100"    -- Show a vertical line at 100 characters
+vim.opt.colorcolumn = "100" -- Show a vertical line at 100 characters
 
 -- ===========================================================================
 -- Highlight on Yank (Copy)
@@ -28,10 +28,12 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 -- ===========================================================================
 -- Other useful settings (recommended)
 -- ===========================================================================
-vim.opt.wrap = false           -- Disable line wrapping
-vim.opt.expandtab = true       -- Use spaces instead of tabs
-vim.opt.shiftwidth = 2         -- Set indent size to 2 spaces
-vim.opt.tabstop = 2            -- Set tab character to 2 spaces
-vim.opt.smartindent = true     -- Enable smart auto-indenting
-vim.opt.scrolloff = 8          -- Keep 8 lines above/below cursor when scrolling
-vim.opt.hlsearch = true        -- Highlight all search matches
+vim.opt.wrap = false -- Disable line wrapping
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.shiftwidth = 2 -- Set indent size to 2 spaces
+vim.opt.tabstop = 2 -- Set tab character to 2 spaces
+vim.opt.smartindent = true -- Enable smart auto-indenting
+vim.opt.scrolloff = 8 -- Keep 8 lines above/below cursor when scrolling
+vim.opt.hlsearch = true -- Highlight all search matches
+
+vim.opt.clipboard = "unnamedplus"
